@@ -1,0 +1,83 @@
+body {
+    font-size: 2em;
+    background-image: url("hehe.jpeg");
+    background-repeat: auto ;
+    background-size: 1000px;
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .span2{
+  text-size-adjust: 2000px;
+  }
+  
+  .quiz-container {
+    size: 500px;
+    max-width: 2000px;
+    backface-visibility: none;
+    border-radius: 10%;
+    padding: 100px;
+    box-shadow: 0 0 10px hwb(0 96% 4% / 0.63);
+  }
+  
+  h1 {
+    font-size-adjust: 3em;
+    color: aliceblue;
+    text-align: center;
+    text-decoration-color: aliceblue;
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  #question-text {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  #answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    height: 60px;
+    font-size: 50px;
+    background-color:#f7f6f6 ;
+  
+  }
+  
+  button:hover {
+    background-color: #d2d2d2;
+  }
+  
+  #controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #timer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #timer-text {
+    font-size: large;
+    color: aliceblue;
+    font-size: 14px;
+  }
+  
+  #timer {
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  #question-container{
+    color: aliceblue;
+  }
